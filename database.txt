@@ -1,0 +1,56 @@
+CREATE DATABASE BulkOrderCS;
+GO
+USE BulkOrderCS;
+CREATE TABLE [dbo].[BOOKS] (
+    [isbn]        INT            NOT NULL,
+    [title]       NVARCHAR (50)  NULL,
+    [author]      NVARCHAR (50)  NULL,
+    [description] NVARCHAR (500) NULL,
+    [price]       FLOAT (53)     NULL,
+    [category]    NVARCHAR (50)  NULL,
+    [cover]       NVARCHAR (50)  NULL,
+    [image]       NVARCHAR (50)  NULL,
+    [quantity]    INT            NULL,
+    CONSTRAINT [pk_books] PRIMARY KEY CLUSTERED ([isbn] ASC)
+);
+CREATE TABLE [dbo].[CLIENTS] (
+    [id]           INT            IDENTITY (1, 1) NOT NULL,
+    [name]         NVARCHAR (50)  NULL,
+    [surname]      NVARCHAR (50)  NULL,
+    [address]      NVARCHAR (200) NULL,
+    [city]         NVARCHAR (50)  NULL,
+    [phone_number] NVARCHAR (18)  NULL,
+    [email]        NVARCHAR (50)  NULL,
+    [username]     NVARCHAR (50)  NULL,
+    [password]     NVARCHAR (50)  NULL,
+    CONSTRAINT [pk_clients] PRIMARY KEY CLUSTERED ([id] ASC)
+);
+CREATE TABLE [dbo].[SHOPPING_CARTS] (
+    [id]     INT           IDENTITY (1, 1) NOT NULL,
+    [client] INT           NULL,
+    [status] NVARCHAR (10) NULL,
+    CONSTRAINT [pk_shopping_carts] PRIMARY KEY CLUSTERED ([id] ASC),
+    CONSTRAINT [fk_shopping_carts_clients] FOREIGN KEY ([client]) REFERENCES [dbo].[CLIENTS] ([id])
+);
+CREATE TABLE [dbo].[SHOPPING_CART_ITEMS] (
+    [id]            INT IDENTITY (1, 1) NOT NULL,
+    [quantity]      INT NULL,
+    [shopping_cart] INT NULL,
+    [isbn]          INT NULL,
+    CONSTRAINT [pk_shopping_cart_items] PRIMARY KEY CLUSTERED ([id] ASC),
+    CONSTRAINT [fk_shopping_cart_items_shopping_cart] FOREIGN KEY ([shopping_cart]) REFERENCES [dbo].[SHOPPING_CARTS] ([id]),
+    CONSTRAINT [fk_shopping_cart_items_books] FOREIGN KEY ([isbn]) REFERENCES [dbo].[BOOKS] ([isbn])
+);
+INSERT INTO [dbo].[BOOKS] ([isbn], [title], [author], [description], [price], [category], [cover], [image], [quantity]) VALUES (1123, N'DTitle', N'DAuthor', N'DDescription', 16.1, N'BCategory', N'cover.jpg', N'DUrl', 2)
+INSERT INTO [dbo].[BOOKS] ([isbn], [title], [author], [description], [price], [category], [cover], [image], [quantity]) VALUES (1232, N'ATitle', N'AAuthor', N'ADescription', 12.1, N'ACategory', N'cover.jpg', N'AUrl', 3)
+INSERT INTO [dbo].[BOOKS] ([isbn], [title], [author], [description], [price], [category], [cover], [image], [quantity]) VALUES (1312, N'BTitle', N'BAuthor', N'BDescription', 23.21, N'BCategory', N'cover.jpg', N'BUrl', 4)
+INSERT INTO [dbo].[BOOKS] ([isbn], [title], [author], [description], [price], [category], [cover], [image], [quantity]) VALUES (8821, N'CTitle', N'CAuthor', N'CDescription', 33.1, N'CCategory', N'cover.jpg', N'CUrl', 5)
+INSERT INTO [dbo].[BOOKS] ([isbn], [title], [author], [description], [price], [category], [cover], [image], [quantity]) VALUES (11123, N'AddTitle', N'AddAuthor', N's;makom;oa ;oms d;oamsd;a sdomaso i', 123.21, N'Category', N'cover.jpg', N'randurl', 22)
+SET IDENTITY_INSERT [dbo].[CLIENTS] ON
+INSERT INTO [dbo].[CLIENTS] ([id], [name], [surname], [address], [city], [phone_number], [email], [username], [password]) VALUES (1, N'Alex', N'Adams', N'AAAdress', N'AACity', N'0123456789', N'AA@email.com', N'AAUsername', N'AAPassword')
+INSERT INTO [dbo].[CLIENTS] ([id], [name], [surname], [address], [city], [phone_number], [email], [username], [password]) VALUES (2, N'Becky', N'Black', N'BBAdress', N'BBCity', N'0123456789', N'BB@email.com', N'BBUsername', N'BBPassword')
+INSERT INTO [dbo].[CLIENTS] ([id], [name], [surname], [address], [city], [phone_number], [email], [username], [password]) VALUES (3, N'Chloe', N'Craft', N'CCAdress', N'CCCity', N'0123456789', N'CC@email.com', N'CCUsername', N'CCPassword')
+INSERT INTO [dbo].[CLIENTS] ([id], [name], [surname], [address], [city], [phone_number], [email], [username], [password]) VALUES (4, N'Dirk', N'Dickens', N'DDAdress', N'DDCity', N'0123456789', N'DD@email.com', N'DDUsername', N'DDPassword')
+INSERT INTO [dbo].[CLIENTS] ([id], [name], [surname], [address], [city], [phone_number], [email], [username], [password]) VALUES (5, N'Fvan', N'Eager', N'EEAddress', N'DDCity', N'0123456789', N'EE@email.com', N'EEUsername', N'EEPassword')
+SET IDENTITY_INSERT [dbo].[CLIENTS] OFF
+
