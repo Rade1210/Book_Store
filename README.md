@@ -62,5 +62,6 @@ Check out our Trello boards: https://trello.com/radepetrovic/boards
 <p align="center"><img alt="login page" src="https://i.imgur.com/VAt9vhC.png" width="70%" title="source: imgur.com" /></p>
 <h3 align="center">Shopping Cart</h3>
 <p align="center"><img alt="category page" src="https://i.imgur.com/Va31mST.png" width="70%" title="source: imgur.com" /></p>
+<h3 align="center">Admin Panel</h3>
+<p align="center"><img alt="admin panel" src="https://i.imgur.com/LIzBaHi.png" width="70%" title="source: imgur.com" /></p>
 
- 
