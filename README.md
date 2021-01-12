@@ -65,7 +65,9 @@ Check out our Trello boards: https://trello.com/radepetrovic/boards
 
 ## Acknowledgments
 
-Teodora Popovic 78/2018
-Rade Petrovic 100/2018
-Milica Kovacevic 206/2018
+<ul>
+    <li>Teodora Popovic 78/2018</li>
+    <li>Rade Petrovic 100/2018</li>
+    <li>Milica Kovacevic 206/2018</li>
+</ul>
 
