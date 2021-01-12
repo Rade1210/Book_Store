@@ -52,6 +52,6 @@ Check out our Trello board: https://trello.com/b/ZA9z9AaF
 
 ## Resources 
 
-<h3 text-align:center>UI of Bulk Order</h3>
+<h3 align="center">UI of Bulk Order</h3>
 <img alt="Bulk Order UI" src="https://i.imgur.com/6ALounq.png" title="source: imgur.com" />
  
