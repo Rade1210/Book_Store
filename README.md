@@ -53,7 +53,7 @@ Check out our Trello board: https://trello.com/radepetrovic/boards
 ## Resources 
 
 <h3 align="center">ER Diagram</h3>
-<p align="center"><img src="https://i.imgur.com/t99XaC2.png" width="50%" title="source: imgur.com" /></p>
+<p align="center"><img src="https://i.imgur.com/t99XaC2.png" width="70%" title="source: imgur.com" /></p>
 <h3 align="center">UI of Bulk Order</h3>
-<p align="center"><img alt="Bulk Order UI" src="https://i.imgur.com/6ALounq.png" width="50%" title="source: imgur.com" /></p>
+<p align="center"><img alt="Bulk Order UI" src="https://i.imgur.com/6ALounq.png" width="70%" title="source: imgur.com" /></p>
  
