@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-    <img src="https://i.imgur.com/9DtbAji.png" title="source: imgur.com" /> alt="Logo" width="80" height="80" >
+    <img src="https://i.imgur.com/9DtbAji.png" title="source: imgur.com" alt="Logo" width="80" height="80" /> 
   </a>
 <!-- TABLE OF CONTENTS -->
 <details open="open">
