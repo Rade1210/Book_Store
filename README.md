@@ -57,5 +57,5 @@ Check out our Trello board: https://trello.com/radepetrovic/boards
 <h3 align="center">UI of Bulk Order</h3>
 <p align="center"><img alt="Bulk Order UI" src="https://i.imgur.com/6ALounq.png" width="70%" title="source: imgur.com" /></p>
 <h3 align="center">Category Page</h3>
-<p align="center"><img alt="Bulk Order UI" src="https://i.imgur.com/6ALounq.png" width="70%" title="source: imgur.com" /></p>
+<img alt="category page" src="https://i.imgur.com/oPSKRBh.png" width="70%" title="source: imgur.com" /></a>
  
