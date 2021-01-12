@@ -48,7 +48,7 @@ Microsoft Visual Studio (We used 2019. version)
 <!-- ROADMAP -->
 ## Roadmap
 
-Check out our Trello board: https://trello.com/radepetrovic/boards
+Check out our Trello boards: https://trello.com/radepetrovic/boards
 
 ## Resources 
 
@@ -58,4 +58,7 @@ Check out our Trello board: https://trello.com/radepetrovic/boards
 <p align="center"><img alt="Bulk Order UI" src="https://i.imgur.com/6ALounq.png" width="70%" title="source: imgur.com" /></p>
 <h3 align="center">Category Page</h3>
 <p align="center"><img alt="category page" src="https://i.imgur.com/oPSKRBh.png" width="70%" title="source: imgur.com" /></p>
+<h3 align="center">Login Page</h3>
+<p align="center"><img alt="category page" src="https://i.imgur.com/VAt9vhC.png" width="70%" title="source: imgur.com" /></p>
+
  
