@@ -63,3 +63,9 @@ Check out our Trello boards: https://trello.com/radepetrovic/boards
 <h3 align="center">Admin Panel</h3>
 <p align="center"><img alt="admin panel" src="https://i.imgur.com/LIzBaHi.png" width="70%" title="source: imgur.com" /></p>
 
+## Acknowledgments
+
+Teodora Popovic 78/2018
+Rade Petrovic 100/2018
+Milica Kovacevic 206/2018
+
