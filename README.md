@@ -52,4 +52,5 @@ Check out our Trello board: https://trello.com/b/ZA9z9AaF
 
 ## Resources 
 
- <img src="https://i.imgur.com/9DtbAji.png" title="source: imgur.com" alt="Logo" width="280" height="280" /> 
+<img alt="Bulk Order UI" src="https://i.imgur.com/6ALounq.png" title="source: imgur.com" width:280 height:280 />
+ 
