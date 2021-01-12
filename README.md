@@ -48,7 +48,7 @@ Microsoft Visual Studio (We used 2019. version)
 <!-- ROADMAP -->
 ## Roadmap
 
-Check out our Trello board: https://trello.com/b/ZA9z9AaF
+Check out our Trello board: https://trello.com/radepetrovic/boards
 
 ## Resources 
 
