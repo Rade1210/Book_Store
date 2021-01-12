@@ -47,3 +47,7 @@ Microsoft Visual Studio (We used 2019. version)
 ## Roadmap
 
 Check out our Trello board: https://trello.com/b/ZA9z9AaF
+
+## Resources
+
+ <img src="https://i.imgur.com/9DtbAji.png" title="source: imgur.com" alt="Logo" width="280" height="280" /> 
