@@ -26,7 +26,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 The main technology of the project is ASP.NET Framework 4.7.2. Although we wanted to use Entity Framework, we decided to manually type our SQL code to increase our skills with this language. The project is made with three-layer architecture, and it uses a Singleton design pattern.  
 
 ### Built With
