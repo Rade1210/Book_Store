@@ -1,5 +1,3 @@
-
-<h1 align="center">Bulk Order App</h1>
 <p align="center">
     <img src="https://i.imgur.com/9DtbAji.png" title="source: imgur.com" alt="Logo" width="30%" /> 
   </a>
