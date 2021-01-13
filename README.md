@@ -51,11 +51,11 @@ Database Layer:
     <li>Created tables Clients, Books, Shopping_Carts, Shopping_Cart_Items</li>
     <li>Created model classes Book, Client, ShoppingCart, ShoppingCartItem, ShoppingCartItemForList</li>
     <li>An exported sql database file</li>
-
+</ul>
 Business Logic Layer:
 <ul>
 <li>Created classes BooksBusiness, ClientsBussiness, ShoppingCartBusiness, ShoppingCartItemsBusiness</li>
-
+</ul>
 Presentation Layer:
 
 
