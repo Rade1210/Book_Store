@@ -122,6 +122,13 @@
         $(".inp1").change(function () {
             $(".but1").attr("href", $(".but1").attr("href") + "&quantity=" + $(this).val());
         });
+        $('.modal-auto-clear').on('shown.bs.modal', function () {
+            $(this).delay(1500).fadeOut(300, function () {
+                $(this).modal('hide');
+                
+            });
+            setTimeout(function () { window.location.href = "Index"; }, 3000);
+        })
     </script>
 </body>
 </html>

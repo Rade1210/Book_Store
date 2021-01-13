@@ -134,7 +134,7 @@ namespace BulkOrderCS
                             <td></td>
                             <td></td>
                             <td>
-                                <button id=""purchase"" runat=""server"" class=""btn btn-primary"" onserverclick=""purchase_ServerClick"">Purchase</button>
+                                <p id=""purchase"" runat=""server"" class=""btn btn-primary purchase"" onserverclick=""purchase_ServerClick"" data-toggle=""modal"" data-target=""#exampleModal"">Purchase</p>
                             </td>
                         </tr>", price, (double)(price / 10), price + (price / 10));
         }
@@ -144,7 +144,6 @@ namespace BulkOrderCS
             ShoppingCartsBusiness.getSetCurrentShoppingCart.Status = "Purchased";
             new ShoppingCartsBusiness().UpdateShoppingCart(ShoppingCartsBusiness.getSetCurrentShoppingCart);
             ShoppingCartsBusiness.getSetCurrentShoppingCart = null;
-            Response.Redirect("Index");
         }
     }
 }
