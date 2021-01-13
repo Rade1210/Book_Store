@@ -70,7 +70,7 @@ Check out our Trello boards: https://trello.com/radepetrovic/boards
 <h3 align="center">Category Page</h3>
 <p align="center"><img alt="category page" src="https://i.imgur.com/wgxa1EA.png" width="70%" title="source: imgur.com" /></p>
 <h3 align="center">Login Page</h3>
-<p align="center"><img alt="login page" src="https://i.imgur.com/VAt9vhC.png" width="70%" title="source: imgur.com" /></p>
+<p align="center"><img alt="login page" src="https://i.imgur.com/wgxa1EA.png" width="70%" title="source: imgur.com" /></p>
 <h3 align="center">Shopping Cart</h3>
 <p align="center"><img alt="category page" src="https://i.imgur.com/Va31mST.png" width="70%" title="source: imgur.com" /></p>
 <h3 align="center">Admin Panel</h3>
