@@ -53,7 +53,8 @@ Database Layer:
     <li>An exported sql database file</li>
 
 Business Logic Layer:
-Created classes BooksBusiness, ClientsBussiness, ShoppingCartBusiness, ShoppingCartItemsBusiness
+<ul>
+<li>Created classes BooksBusiness, ClientsBussiness, ShoppingCartBusiness, ShoppingCartItemsBusiness</li>
 
 Presentation Layer:
 
