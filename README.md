@@ -46,6 +46,17 @@ Microsoft Visual Studio (We used 2019. version)
 
 ## Roadmap
 
+Database Layer: 
+Created tables Clients, Books, Shopping_Carts, Shopping_Cart_Items
+Created model classes Book, Client, ShoppingCart, ShoppingCartItem, ShoppingCartItemForList
+An exported sql database file
+
+Business Logic Layer:
+Created classes BooksBusiness, ClientsBussiness, ShoppingCartBusiness, ShoppingCartItemsBusiness
+
+Presentation Layer:
+
+
 Check out our Trello boards: https://trello.com/radepetrovic/boards
 
 ## Resources 
