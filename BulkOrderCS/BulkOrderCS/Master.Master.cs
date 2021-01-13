@@ -19,7 +19,8 @@ namespace BulkOrderCS
             {
                 login.Attributes.Add("href", "/Login");
                 login.InnerText = "Login";
-            } else
+            }
+            else
             {
                 login.Attributes.Add("href", "/Logout");
                 login.InnerText = "Logout";
