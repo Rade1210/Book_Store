@@ -59,7 +59,8 @@
     <Compile Include="ClientsRepositoryTest.cs" />
     <Compile Include="BooksRepositoryTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="BooksBusinessTest.cs" />
+    <Compile Include="ClientBusinessTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -68,6 +69,10 @@
     <ProjectReference Include="..\BulkOrderCS\BulkOrderCS.csproj">
       <Project>{C1F24E7E-2F4F-4BAF-A4AE-BC226F356E82}</Project>
       <Name>BulkOrderCS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BusinessLogicLayer\BusinessLogicLayer.csproj">
+      <Project>{f0425846-c8f2-420b-96e6-925aa5baba2e}</Project>
+      <Name>BusinessLogicLayer</Name>
     </ProjectReference>
     <ProjectReference Include="..\DatabaseLayer\DatabaseLayer.csproj">
       <Project>{ac8b330b-e435-421a-ba14-70eb2e275646}</Project>

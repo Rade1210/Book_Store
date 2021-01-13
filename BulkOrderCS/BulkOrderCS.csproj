@@ -130,10 +130,9 @@
     <Content Include="Master.Master" />
     <Content Include="src\img\cover.jpg" />
     <Content Include="src\img\login.png" />
-    <Content Include="WebForm1.aspx" />
+    <Content Include="DatabaseTestForm.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="Categories.aspx" />
-    <Content Include="WebForm2.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -216,12 +215,12 @@
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="DatabaseTestForm.aspx.cs">
+      <DependentUpon>DatabaseTestForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="DatabaseTestForm.aspx.designer.cs">
+      <DependentUpon>DatabaseTestForm.aspx</DependentUpon>
     </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
@@ -236,13 +235,6 @@
     </Compile>
     <Compile Include="Categories.aspx.designer.cs">
       <DependentUpon>Categories.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebForm2.aspx.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm2.aspx.designer.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

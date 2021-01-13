@@ -45,7 +45,7 @@ namespace BulkOrderCS
         {
             shoppingCartItemsBusiness.DeleteShoppingCartItem(id);
 
-            Response.Redirect("Index");
+            Response.Redirect("Cart");
         }
 
         protected void ChangeQuantity(int id, int isbn, int quantity)
