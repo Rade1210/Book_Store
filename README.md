@@ -66,8 +66,8 @@ Check out our Trello boards: https://trello.com/radepetrovic/boards
 ## Acknowledgments
 
 <ul>
-    <li>Teodora Popovic 78/2018</li>
-    <li>Rade Petrovic 100/2018</li>
-    <li>Milica Kovacevic 206/2018</li>
+    <li>Presentation Layer - Teodora Popovic 78/2018</li>
+    <li>Business Logic Layer - Rade Petrovic 100/2018</li>
+    <li>Database Layer - Milica Kovacevic 206/2018</li>
 </ul>
 
